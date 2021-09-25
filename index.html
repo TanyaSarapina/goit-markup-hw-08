@@ -108,7 +108,7 @@
             </div>
         </section>
         <!-- Наше направление -->
-        <!-- <section class="activities">
+        <section class="activities">
             <div class="container">
                 <h2 class="activities__title">Чем мы занимаемся</h2>
                 <ul class="activities__list list">
@@ -135,16 +135,22 @@
                     </li>
                 </ul>
             </div>
-        </section> -->
+        </section>
         <!-- Команда -->
-        <!-- <section class="team">
+        <section class="team">
             <div class="container">
                 <h2 class="team__main-title">Наша команда</h2>
                 <ul class="team__list list">
                     <li class="team__item">
-                        <img src="./images/team/igor.jpg" alt="Мужчина в очках" class="team__foto" width="270"
-                            height="260">
-                        <div class="team__one-text">
+                        <picture class="picture">
+                            <source media="(min-width: 1200px)" srcset="./images/team/igor-desktop-1x.jpg 1x, ./images/team/igor-desktop-2x.jpg 2x" >
+                            <source media="(min-width: 768px)" srcset="./images/team/igor-tablet-1x.jpg 1x, ./images/team/igor-tablet-2x.jpg 2x" 
+                            >
+                            <source media="(min-width: 480px)" srcset="./images/team/igor-mobile-1x.jpg 1x, ./images/team/igor-mobile-2x.jpg 2x" 
+                                >
+                            <img src="./images/team/igor-desktop-1x.jpg" alt="Мужчина в очках" class="team__foto" >
+                        </picture>
+                            <div class="team__one-text">
                             <h3 class="team__secondary-title">Игорь Демьяненко</h3>
                             <p lang="en" class="team__text">Product Designer</p>
                             <ul class="list socials-list">
@@ -180,9 +186,15 @@
                         </div>
                     </li>
                     <li class="team__item">
-                        <img src="./images/team/olga.jpg" alt="Девушка в очках" class="team__foto" width="270"
-                            height="260">
-                        <div class="team__one-text">
+                        <picture class="picture">
+                            <source media="(min-width: 1200px)" srcset="./images/team/olga-desktop-1x.jpg 1x, ./images/team/olga-desktop-2x.jpg 2x">
+                            <source media="(min-width: 768px)"
+                                srcset="./images/team/olga-tablet-1x.jpg 1x, ./images/team/olga-tablet-2x.jpg 2x">
+                            <source media="(min-width: 480px)"
+                                srcset="./images/team/olga-mobile-1x.jpg 1x, ./images/team/olga-mobile-2x.jpg 2x">
+                            <img src="./images/team/olga-desktop-1x.jpg" alt="Девушка в очках" class="team__foto">
+                        </picture>
+                            <div class="team__one-text">
                             <h3 class="team__secondary-title">Ольга Репина</h3>
                             <p lang="en" class="team__text">Frontend Developer</p>
                             <ul class="list socials-list">
@@ -218,8 +230,16 @@
                         </div>
                     </li>
                     <li class="team__item">
-                        <img src="./images/team/nikolay.jpg" alt="Мужчина в рубашке" class="team__foto" width="270"
-                            height="260">
+                        <picture class="picture">
+                            <source media="(min-width: 1200px)"
+                                srcset="./images/team/nik-desktop-1x.jpg 1x, ./images/team/nik-desktop-2x.jpg 2x">
+                            <source media="(min-width: 768px)"
+                                srcset="./images/team/nik-tablet-1x.jpg 1x, ./images/team/nik-tablet-2x.jpg 2x">
+                            <source media="(min-width: 480px)"
+                                srcset="./images/team/nik-mobile-1x.jpg 1x, ./images/team/nik-mobile-2x.jpg 2x">
+                        <img src="/images/team/nik-desktop-1x.jpg" alt="Мужчина в рубашке" class="team__foto">
+                        </picture>
+                        
                         <div class="team__one-text">
                             <h3 class="team__secondary-title">Николай Тарасов</h3>
                             <p lang="en" class="team__text">Marketing</p>
@@ -256,8 +276,15 @@
                         </div>
                     </li>
                     <li class="team__item">
-                        <img src="./images/team/michael.jpg" alt="Мужчина в футболке" class="team__foto" width="270"
-                            height="260">
+                        <picture class="picture">
+                            <source media="(min-width: 1200px)"
+                                srcset="./images/team/mih-desktop-1x.jpg 1x, ./images/team/mih-desktop-2x.jpg 2x">
+                            <source media="(min-width: 768px)"
+                                srcset="./images/team/mih-tablet-1x.jpg 1x, ./images/team/mih-tablet-2x.jpg 2x">
+                            <source media="(min-width: 480px)"
+                                srcset="./images/team/mih-mobile-1x.jpg 1x, ./images/team/mih-mobile-2x.jpg 2x">
+                            <img src="./images/team/mih-desktop-1x.jpg" alt="Мужчина в футболке" class="team__foto">
+                        </picture>
                         <div class="team__one-text">
                             <h3 class="team__secondary-title">Михаил Ермаков</h3>
                             <p lang="en" class="team__text">UI Designer</p>
@@ -295,7 +322,7 @@
                     </li>
                 </ul>
             </div>
-        </section> -->
+        </section>
         <!-- Наши клиенты -->
         <!-- <section class="client">
             <div class="container">
