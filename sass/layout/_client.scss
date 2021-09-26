@@ -21,7 +21,6 @@
   &:nth-child(2n + 1) {
     margin-left: -30px;
   }
-
   @media screen and (min-width: 768px) {
     flex-basis: calc(100% / 3 - 30px);
     &:first-child {
