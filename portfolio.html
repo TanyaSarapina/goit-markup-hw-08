@@ -20,8 +20,8 @@
 
 <body>
     <!-- Шапка сайта -->
-<!-- <header class="header">
-    <div class="container">
+<header class="header">
+    <div class="container main-nav">
         <nav class="header__navigation">
             <a href="./index.html" class="header__logo logo link animate__animated animate__fadeInLeft">Web<span
                     class="header__logo-part">Studio</span></a>
@@ -49,8 +49,63 @@
                 </svg>
                 +38 096 111 11 11</a>
         </div>
+        <button type="button" class="header__menu-open" data-menu-open>
+            <svg class="header__burger" width="24" height="16">
+                <use href="./images/icons.svg#icon-menu"></use>
+            </svg>
+        </button>
     </div>
-</header> -->
+    <div class="header__menu-mobile is-hidden data-menu" data-menu>
+        <div class="container">
+            <button type="button" class="header__menu-close" data-menu-close>
+                <svg class="header__cross" width="18.67" height="18.67">
+                    <use href="./images/icons.svg#icon-cross"></use>
+                </svg>
+            </button>
+            <ul class="header__mob-list list">
+                <li class="header__mob-item">
+                    <a href="" class="header__mob-link link">Студия</a>
+                </li>
+                <li class="header__mob-item">
+                    <a href="" class="header__mob-link link">Портфолио</a>
+                </li>
+                <li lass="header__mob-item">
+                    <a chref="" class="header__mob-link link">Контакты</a>
+                </li>
+            </ul>
+            <div class="header__mob-menu-bottom">
+                <ul class="header__contacts-list list">
+                    <li class="header__contacts-item">
+                        <a href="" class="header__contacts-link header__contacts-link-tel link"
+                            href="tel:+380961111111">+38 096 111 11 11</a>
+                    </li>
+                    <li class="header__contacts-item">
+                        <a href="" class="header__contacts-link link"
+                            href="mailto:info@devstudio.com">info@devstudio.com</a>
+                    </li>
+                </ul>
+                <ul class="header__social-list list">
+                    <li class="header__social-item">
+                        <a href="" class="header__social-link link" rel="noopener noreferrer nofollow"
+                            target="_blank">Instagram</a>
+                    </li>
+                    <li class="header__social-item">
+                        <a href="" class="header__social-link link" rel="noopener noreferrer nofollow"
+                            target="_blank">Twitter</a>
+                    </li>
+                    <li class="header__social-item">
+                        <a href="" class="header__social-link link" rel="noopener noreferrer nofollow"
+                            target="_blank">Facebook</a>
+                    </li>
+                    <li class="header__social-item">
+                        <a href="" class="header__social-link link" rel="noopener noreferrer nofollow"
+                            target="_blank">LinkedIn</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</header>
     <!-- Кнопки фильтров -->
     <main>
         <section class="projects">
@@ -343,8 +398,8 @@
                     </button>
                 </form>
             </div>
-
         </div>
 </footer>
+<script src="./js/mobile-menu.js"></script>
 </body>
 </html>
