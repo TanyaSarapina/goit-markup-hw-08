@@ -15,6 +15,9 @@
 .projects__button-link {
   margin-left: 8px;
   margin-bottom: 15px;
+  @media screen and (min-width: 768px) {
+    margin-bottom: 0px;
+  }
 }
 .projects__button-btn {
   font-weight: 500;
